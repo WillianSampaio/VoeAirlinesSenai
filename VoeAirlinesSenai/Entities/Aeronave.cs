@@ -25,5 +25,7 @@ POCO-foco é o objeto
     public string? Modelo { get; set; }
     public string? Codigo { get; set; }
 
+    public ICollection<Manutencao> Manutencoes{get;set;}
+
 
 }
